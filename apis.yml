@@ -1,8 +1,17 @@
 aid: swing-education
 name: Swing Education
-description: Swing Education is a company surfaced as a portfolio company of 500-global, gv and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Swing Education is a technology-driven substitute teacher staffing marketplace
+  for K-12 schools and districts across the United States. Its vetted platform
+  connects schools and districts with qualified, background-checked substitute
+  teachers and classified staff to cover daily absences, long-term leaves,
+  special education classrooms, and paraprofessional roles. Schools request
+  coverage through an online admin console while substitutes browse and claim
+  assignments through a dedicated app. The company reports a 94% fill rate, an
+  average five-minute fill time, and coverage of more than 6,000 schools. Added
+  to the API Evangelist network as a portfolio-lead company profile; the public
+  site exposes no developer/API surface, so this record carries identity and
+  domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/swing-education/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +20,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://swingeducation.com/wp-content/uploads/2026/06/Hero-Main.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- Staffing
+- Substitute Teachers
+- K-12
+- Marketplace
+- Workforce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,16 @@ maintainers:
 common:
 - type: Website
   url: https://swingeducation.com
+- type: Support
+  url: https://swingeducation.com/help-center/
+- type: TermsOfService
+  url: https://swingeducation.com/terms/
+- type: Login
+  url: https://admins.swingeducation.com/#/
+- type: DomainSecurity
+  url: security/swing-education-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
